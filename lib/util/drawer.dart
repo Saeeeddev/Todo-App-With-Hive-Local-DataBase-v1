@@ -1,4 +1,4 @@
-import:'package:flutter/materail.dart';
+import 'package:flutter/materail.dart';
 
 class Mydrawer extends StatelessWidget {
   const Mydrawer({super.key});
@@ -13,8 +13,8 @@ class Mydrawer extends StatelessWidget {
           children: [
             DrawerHeader(
                 child: Text(
-              'M E N U'
-              style: TextStyle(fontSize: 20, fontFamily: 'Freedom'),
+              'M E N U',
+              style: TextStyle(fontSize: 20, fontFamily: 'Freedom',),
             )),
             ListTile(
               leading: Icon(Icons.home),
